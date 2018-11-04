@@ -1,0 +1,78 @@
+header {
+  background-color: hsl(80, 13%, 61%);
+  text-align: center;
+}
+h1 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 4rem;
+
+  color: hsl(72, 6%, 5%);
+}
+h2 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 2rem;
+  text-align: center;
+  color: hsl(51, 8%, 30%);
+}
+header h3 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 3rem;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container h1 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 2rem;
+  padding-top: 30px;
+}
+.step {
+  max-width: 300px;
+  text-align:   center;
+}
+.step img {
+  max-width: 100%;
+}
+.step h3 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1rem;
+}
+.container.process {
+  flex-direction: row;
+  justify-content:space-around;
+  width: 80%;
+  flex-wrap: wrap;
+}
+.notes, .services, .result {
+  width: 80%;
+  padding-top: 30px;
+}
+.notes h3, .services h3, .result h3 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.2rem;
+}
+.notes p, .services p, .result p {
+  font-family: "Bitter", serif;
+  font-size: 1rem;
+}
+.spacer {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.oval img {
+  max-height: 350px;
+  padding-top: 10px;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Bitter', serif;
+  color: #2B2E28;
+  background-color: hsl(80, 13%, 61%);
+  padding: 50px 0;
+  margin-top: 2rem;
+}
