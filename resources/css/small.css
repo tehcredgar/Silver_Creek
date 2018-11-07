@@ -30,10 +30,10 @@ header h3 {
   padding-top: 30px;
 }
 .step {
-  max-width: 300px;
   text-align:   center;
 }
 .step img {
+  max-height:300px;
   max-width: 100%;
 }
 .step h3 {
