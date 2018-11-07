@@ -61,6 +61,7 @@ header h3 {
 .spacer {
   flex-direction: row;
   justify-content: center;
+  max-width: 80%;
 }
 
 .oval img {
