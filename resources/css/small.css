@@ -68,7 +68,10 @@ header h3 {
   max-height: 350px;
   padding-top: 10px;
 }
-
+.title {
+  max-width: 80%;
+  text-align: center;
+}
 footer {
   text-align: center;
   font-family: 'Bitter', serif;
