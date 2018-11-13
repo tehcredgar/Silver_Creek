@@ -1,0 +1,64 @@
+header {
+  background-color: hsl(80, 13%, 61%);
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  color: hsl(72, 6%, 5%);
+}
+header h2 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 2rem;
+  text-align: center;
+  color: hsl(51, 8%, 30%);
+}
+header h3 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 3rem;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title {
+  max-width: 80%;
+  text-align: center;
+}
+.container.plywood{
+  flex-direction: row;
+}
+.video {
+  width: 800px;
+}
+.content {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.notes h3, .services h3 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.2rem;
+  margin-top: 30px;
+}
+img {
+  width: 400px;
+}
+.content.foam {
+  flex-direction: row;
+}
+footer {
+  text-align: center;
+  font-family: 'Bitter', serif;
+  color: #2B2E28;
+  background-color: hsl(80, 13%, 61%);
+  padding: 50px 0;
+  margin-top: 2rem;
+}
