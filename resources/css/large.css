@@ -29,12 +29,19 @@ header h3 {
   justify-content: center;
   flex-direction: column;
 }
+
+.container h1 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 2rem;
+  padding-top: 30px;
+}
+
 .title {
   max-width: 80%;
   text-align: center;
 }
-.container.plywood{
-  flex-direction: row;
+.container.plywood, .container.foam {
+  width: 80%;
 }
 .video {
   width: 800px;
@@ -48,11 +55,13 @@ header h3 {
   font-size: 1.2rem;
   margin-top: 30px;
 }
+
 img {
   width: 400px;
 }
-.content.foam {
+.container.content.foam {
   flex-direction: row;
+  width: 80%;
 }
 footer {
   text-align: center;
