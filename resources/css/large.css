@@ -23,13 +23,26 @@ header h3 {
   font-family: 'Archivo Black', sans-serif;
   font-size: 3rem;
 }
+
+video {
+  max-width: 90%;
+  max-height: 500px;
+
+}
 .container{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-
+.container.plywood, .container.foam{
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container.plywood.right, .container.foam.right {
+  flex-direction: column;
+  max-width: 50%;
+}
 .container h1 {
   font-family: 'Archivo Black', sans-serif;
   font-size: 2rem;
@@ -41,15 +54,9 @@ header h3 {
   text-align: center;
 }
 .container.plywood, .container.foam {
-  width: 80%;
+  max-width: 80%;
 }
-.video {
-  width: 800px;
-}
-.content {
-  flex-direction: column;
-  align-items: flex-start;
-}
+
 .notes h3, .services h3 {
   font-family: 'Archivo Black', sans-serif;
   font-size: 1.2rem;
@@ -57,15 +64,11 @@ header h3 {
 }
 
 img {
-  width: 400px;
+  max-width: 90%;
+  max-height: 500px;
+
 }
-.container.content.foam {
-  flex-direction: row;
-  width: 80%;
-}
-.container.foam.left {
-  padding-right: 20px;
-}
+
 footer {
   text-align: center;
   font-family: 'Bitter', serif;
@@ -77,20 +80,26 @@ footer {
 @media only screen and (max-width: 812px) {
   .container {
     text-align: center;
+    max-width: 100%;
   }
-  .container.foam.left {
-    padding: 0;
+  .container.foam.left, img {
+    max-width: 100%
   }
-  .container.content.foam {
+  .container.foam, .container.plywood {
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    justify-content: center;
+    max-width: 100%;
   }
   header h1 {
     font-size: 3rem;
     padding-top: 20px;
   }
-.content p {
+  p {
   font-size: 1.5rem;
-}
+  }
+  .plywood.video, video {
+  max-width: 100%;
+
+  }
 }
