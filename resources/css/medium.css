@@ -37,6 +37,22 @@ body {
   margin-left: 15%;
   padding-bottom:30px;
 }
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(200, 200, 200, 0.85);
+}
+nav h1 {
+  font-size: 1.5rem;
+  padding: 10px;
+  color: hsl(72, 6%, 25%);
+}
+nav a {
+  width: 25%;
+  border: 1px solid rgba(180, 180, 180, 1);
+  text-align: center;
+}
 .container{
   display: flex;
   align-items: center;
