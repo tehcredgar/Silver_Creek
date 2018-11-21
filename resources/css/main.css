@@ -87,6 +87,8 @@ video {
 }
 .project.small {
   background-image: url("../images/247 Bernese Mtn Dog.jpg");
+  background-position: top;
+  background-size: cover;
 }
 .project.medium {
   background-image: url("../images/St Arn Sign.jpg");
@@ -96,6 +98,7 @@ video {
   background-image: url("../images/Foam.jpg");
   background-size:cover;
 }
+
 footer {
   text-align: center;
   font-family: 'Bitter', serif;
@@ -106,13 +109,13 @@ footer {
 }
 
 @media only screen and (max-width: 760px) {
-  header h1 {
-    font-size: 3rem;
-    padding-top: 20px;
+  body {
+    background-image: none;
   }
-.content p {
-  font-size: 2rem;
-}
+  .page {
+    width: 100%;
+    margin-left: 0;
+  }
   .buttons {
     display: block;
     width: 100%;
