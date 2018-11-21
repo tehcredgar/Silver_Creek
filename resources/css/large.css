@@ -102,7 +102,9 @@ video {
   font-size: 1.2rem;
   padding: 10px 0;
 }
-
+.plywood.left p {
+  font-size: 0.75rem;
+}
 img {
   max-width: 90%;
   max-height: 500px;
@@ -133,9 +135,6 @@ footer {
   }
   .plywood.video, video {
   max-width: 100%;
-  }
-  .plywood.left p {
-    font-size: 0.75rem;
   }
   .container.plywood, .container.foam {
     flex-direction: column;
