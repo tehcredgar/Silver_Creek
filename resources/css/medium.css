@@ -7,6 +7,7 @@ h1 {
   font-family: 'Archivo Black', sans-serif;
   font-size: 4rem;
   color: hsl(72, 6%, 5%);
+  text-align: center;
 }
 h2 {
   font-family: 'Yellowtail', cursive;
@@ -83,7 +84,7 @@ nav a:hover{
   padding-bottom:10px;
 }
 img {
-  width: 400px;
+  max-width: 400px;
   margin-bottom: 10px;
 }
 .legs.photos {
@@ -94,6 +95,10 @@ img {
 }
 .legs img {
   height: 300px;
+}
+.signs img {
+  max-width: 50%;
+  min-height: 335px;
 }
 .notes.legs, .services.legs {
   width: 80%;
@@ -136,5 +141,8 @@ footer {
   }
 .content p {
   font-size: 1rem;
-}
+  }
+  .signs img{
+    max-width: 80%;
+  }
 }

@@ -11,6 +11,7 @@ h1 {
   font-family: 'Archivo Black', sans-serif;
   font-size: 4rem;
   color: hsl(72, 6%, 5%);
+  text-align: center;
 }
 h2 {
   font-family: 'Yellowtail', cursive;
@@ -51,7 +52,6 @@ nav a {
   height: 70px;
   width: 25%;
   border: 1px solid rgba(180, 180, 180, 1);
-  ;
 }
 nav a:hover{
   background-color: rgba(180, 180, 180, 0.85)
