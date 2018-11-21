@@ -130,13 +130,11 @@ footer {
   .page {
     width: 100%;
     margin-left: 0;
+    text-align: center;
   }
   .spacer {
     flex-direction: column;
     max-width: 100%;
-  }
-  .bernese h1 {
-    text-align: center;
   }
   header h1 {
     font-size: 3rem;

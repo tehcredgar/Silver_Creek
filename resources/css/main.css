@@ -115,6 +115,7 @@ footer {
   .page {
     width: 100%;
     margin-left: 0;
+    text-align: center;
   }
   .buttons {
     display: block;

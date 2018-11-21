@@ -128,6 +128,9 @@ footer {
     width: 100%;
     margin-left: 0;
   }
+  .container {
+    width: 100%;
+  }
   .container.signs {
     flex-direction: column;
     text-align: center;
