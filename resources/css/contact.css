@@ -1,0 +1,66 @@
+.page {
+  height: auto;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(200, 200, 200, 0.85);
+}
+nav h1 {
+  font-size: 1.5rem;
+  padding: 10px;
+  color: hsl(72, 6%, 25%);
+}
+nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 25%;
+  border: 1px solid rgba(180, 180, 180, 1);
+}
+nav a:hover{
+  background-color: rgba(180, 180, 180, 0.85)
+}
+#contact {
+  margin: 5rem 0 5rem;
+  padding: 2rem;
+  border: solid black 1px;
+  border-radius: 4px;
+}
+#contact:hover{
+  background-color: rgba(180, 180, 180, 0.85)
+}
+.container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container h1 {
+  font-size: 3rem;
+  padding: 1rem;
+}
+video{
+  max-width: 100%;
+}
+.video{
+  margin-top: 5rem;
+}
+.video, video {
+  padding: 0;
+  margin: 0;
+}
+@media only screen and (max-width: 760px){
+  nav {
+    display: none;
+  }
+  body {
+    background-image: none;
+  }
+  .page {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
