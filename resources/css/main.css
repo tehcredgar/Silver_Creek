@@ -134,7 +134,7 @@ nav a:hover{
   background-color: rgba(180, 180, 180, 0.85)
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 1130px) {
   body {
     background-image: none;
   }
